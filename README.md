@@ -1,6 +1,12 @@
-# Emotion Detector
+# Final Project
 
-A Flask-based web application that analyzes text and detects five emotions:
+## Emotion Detection Application
+
+This project is a Final Project that uses the Watson NLP library to detect emotions from text.
+
+### Project Description
+
+The application analyzes text and identifies the following emotions:
 
 - Anger
 - Disgust
@@ -8,20 +14,9 @@ A Flask-based web application that analyzes text and detects five emotions:
 - Joy
 - Sadness
 
-The application also identifies the dominant emotion in the supplied statement.
+It also identifies the dominant emotion in the analyzed text.
 
-## Project Structure
+### Project Structure
 
-```text
-EmotionDetection/
-├── EmotionDetection/
-│   ├── __init__.py
-│   └── emotion_detection.py
-├── templates/
-│   └── index.html
-├── test_emotion_detection.py
-├── server.py
-├── .gitignore
-└── README.md
-
-python server.py
+- `2a_emotion_detection.py` - Contains the emotion detection function.
+- `2b_application_creation` - Contains the application testing output.
